@@ -115,4 +115,6 @@ domainFilters: []
 
 provider: aws
 
+watchNamespaces: []
+
 extraArgs: []
