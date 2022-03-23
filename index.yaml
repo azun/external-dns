@@ -41,6 +41,36 @@ entries:
           description: "Set ClusterRole rules based more enabled sources."
     apiVersion: v2
     appVersion: 0.10.2
+    created: "2022-03-23T13:24:45.681934837Z"
+    description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
+      with DNS providers.
+    digest: d9df86f82aa79629dd71a15108ffa3f14d29977e6ea0ca319f8fc0882dd145e0
+    home: https://github.com/kubernetes-sigs/external-dns/
+    icon: https://github.com/kubernetes-sigs/external-dns/raw/master/img/external-dns.png
+    keywords:
+    - kubernetes
+    - external-dns
+    - dns
+    maintainers:
+    - email: steve.hipwell@gmail.com
+      name: stevehipwell
+    name: external-dns
+    sources:
+    - https://github.com/kubernetes-sigs/external-dns/
+    type: application
+    urls:
+    - https://github.com/azun/external-dns/releases/download/external-dns-helm-chart-1.7.1-adobe-20220323/external-dns-1.7.1-adobe-20220323.tgz
+    version: 1.7.1-adobe-20220323
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: "Allow custom ClusterRole rules to be specified for sources without defaults."
+        - kind: changed
+          description: "Update ExternalDNS version to v0.10.2."
+        - kind: changed
+          description: "Set ClusterRole rules based more enabled sources."
+    apiVersion: v2
+    appVersion: 0.10.2
     created: "2022-03-22T14:52:03.047344599Z"
     description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
       with DNS providers.
@@ -294,4 +324,4 @@ entries:
     urls:
     - https://github.com/kubernetes-sigs/external-dns/releases/download/external-dns-helm-chart-1.2.0/external-dns-1.2.0.tgz
     version: 1.2.0
-generated: "2022-03-22T14:52:03.047873603Z"
+generated: "2022-03-23T13:24:45.682188739Z"
